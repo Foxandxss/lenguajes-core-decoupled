@@ -1,8 +1,6 @@
 require('zone.js/dist/zone-node');
 require('reflect-metadata');
 const express = require('express');
-const fs = require('fs');
-const { platformServer, renderModuleFactory } = require('@angular/platform-server');
 const { provideModuleMap } = require('@nguniversal/module-map-ngfactory-loader');
 const { ngExpressEngine } = require('@nguniversal/express-engine');
 // Import the AOT compiled factory for your AppServerModule.
