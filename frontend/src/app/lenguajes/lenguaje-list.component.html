@@ -1,0 +1,3 @@
+<h2 [routerLink]="['/admin']">Listado lenguajes</h2>
+
+<img *ngFor="let lenguaje of lenguajes" class="logo" [src]="lenguaje.logo" alt="{{lenguaje.name}} logo" [routerLink]="lenguaje.id">

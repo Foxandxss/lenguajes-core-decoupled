@@ -1,0 +1,16 @@
+<h2>Añadir nuevo lenguaje</h2>
+
+<form novalidate>
+  <div class="form-group col-md-4">
+    <label class="center-block">Nombre:
+      <input class="form-control" [(ngModel)]="lenguaje.name" name="name">
+    </label>
+    <label class="center-block">Logo:
+      <input class="form-control" [(ngModel)]="lenguaje.logo" name="logo">
+    </label>
+    <label class="center-block">Puntuación:
+      <input class="form-control" [(ngModel)]="lenguaje.rating" name="rating">
+    </label>
+    <button class="btn btn-primary" (click)="add()">Añadir</button>
+  </div>
+</form>

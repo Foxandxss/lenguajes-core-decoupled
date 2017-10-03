@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Bree+Serif');
+
+body {
+  background: #0147A7;
+  color: #fff;
+  margin: 4em 4em;
+  font-family: 'Bree Serif';
+}
+a {
+  color: #03A9F4;
+}
+
+.logo {
+height: 200px;
+}
+
+h1 {
+  font-family: 'Fugaz One';
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Fugaz One';
+  font-size: 36px;
+  color: #ceceff;
+}
+h3 {
+  margin-top: 30px;
+  margin-bottom: -30px;
+  font-family: 'Fugaz One';
+  font-size: 24px;
+  color: #aaccff;
+}
+.logo {
+  margin-top: 40px;
+  margin-right: 36px;
+  position: relative;
+  left: 0px;
+}
+
+.logo:hover {
+  border: 8px solid #ff8800;
+}
+
+button {
+  background: #fff;
+  color: #000;
+  border: 3px solid #ccc;
+  border-radius: 14px;
+  padding: 0.5em 3em;
+}
+button:hover {
+  background: #bbf;
+  border: 3px solid #888;
+}
